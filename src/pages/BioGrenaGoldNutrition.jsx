@@ -38,15 +38,6 @@ const BioGrenaGoldNutrition = () => {
       tag: "Diabétique"
     },
     {
-      id: 3,
-      name: "Pain Frais Nutritif",
-      description: "Pain frais enrichi, préparé chaque jour pour offrir un apport nutritionnel optimal. Une nutrition saine et naturelle, sans conservateurs.",
-      image: "/Pain Frais Nutritif.jpg",
-      features: ["Frais du jour", "Enrichi", "Sans conservateurs"],
-      accent: "#4A3728",
-      tag: "Frais"
-    },
-    {
       id: 4,
       name: "Pâtisserie Anti-Allergie",
       description: "Pâtisseries hypoallergéniques formulées sans les allergènes courants. Une gourmandise sûre pour les personnes souffrant d'allergies et d'intolérances alimentaires.",

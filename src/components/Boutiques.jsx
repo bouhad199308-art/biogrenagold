@@ -119,15 +119,6 @@ const Boutiques = () => {
       link: "/bio-grenagold-nutrition",
     },
     {
-      id: 11,
-      name: "Pain Frais Nutritif",
-      subtitle: "Bio GrenaGold Nutrition",
-      description: "Pain frais enrichi, préparé chaque jour pour offrir un apport nutritionnel optimal. Une nutrition saine et naturelle, sans conservateurs.",
-      image: "/Pain Frais Nutritif.jpg",
-      accent: "#4A3728",
-      link: "/bio-grenagold-nutrition",
-    },
-    {
       id: 12,
       name: "Pâtisserie Anti-Allergie",
       subtitle: "Bio GrenaGold Nutrition",
