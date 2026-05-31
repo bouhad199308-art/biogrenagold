@@ -135,7 +135,7 @@ const Footer = () => {
 
         {/* Developer Signature */}
         <div className="footer__signature">
-          <a href="https://www.sitedz.store" target="_blank" rel="noopener noreferrer" className="footer__dev-link">
+          <a href="https://www.sitedz.com" target="_blank" rel="noopener noreferrer" className="footer__dev-link">
             <span className="footer__dev-crafted">Crafted by</span>
             <span className="footer__dev-name">Azeddine</span>
           </a>

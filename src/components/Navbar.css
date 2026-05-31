@@ -37,6 +37,7 @@
   letter-spacing: 0.05em;
   display: flex;
   gap: 0.15em;
+  flex-shrink: 0;
 }
 
 .navbar__logo-text {
@@ -62,7 +63,8 @@
 .navbar__links {
   display: flex;
   list-style: none;
-  gap: 3rem;
+  gap: 1.75rem;
+  margin-left: 3rem;
 }
 
 .navbar__links li {
@@ -72,14 +74,15 @@
 
 .navbar__link {
   font-family: var(--font-body);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   color: var(--color-text-secondary);
   text-decoration: none;
   position: relative;
   padding: 0.5rem 0;
+  white-space: nowrap;
   transition: var(--transition-fast);
 }
 

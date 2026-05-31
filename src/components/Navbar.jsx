@@ -61,6 +61,7 @@ const Navbar = () => {
     { name: 'Fruits Secs', href: '/fruits-secs', isRoute: true },
     { name: 'Colorants', href: '/colorants-additifs', isRoute: true },
     { name: 'Papier Grenade', href: '/papier-grenade', isRoute: true },
+    { name: 'Nutrition', href: '/bio-grenagold-nutrition', isRoute: true },
   ]
 
   return (

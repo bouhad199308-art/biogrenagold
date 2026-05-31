@@ -99,6 +99,15 @@ const Boutiques = () => {
       accent: "#2D5016",
       link: null,
     },
+    {
+      id: 9,
+      name: "Bio GrenaGold Nutrition",
+      subtitle: "Pain & Pâtisserie Santé",
+      description: "Pains et pâtisseries frais et sains pour les personnes malades : diabétiques et allergiques (maladie cœliaque). Sans gluten, sans sucre ajouté et hypoallergéniques, préparés chaque jour avec des ingrédients naturels.",
+      image: "/Pain Sans Gluten.jpg",
+      accent: "#A91D3A",
+      link: "/bio-grenagold-nutrition",
+    },
   ]
 
   return (

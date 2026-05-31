@@ -16,6 +16,7 @@ const FruitsSecs = lazy(() => import('./pages/FruitsSecs'))
 const Confiserie = lazy(() => import('./pages/Confiserie'))
 const PapierGrenade = lazy(() => import('./pages/PapierGrenade'))
 const ColorantsAdditifs = lazy(() => import('./pages/ColorantsAdditifs'))
+const BioGrenaGoldNutrition = lazy(() => import('./pages/BioGrenaGoldNutrition'))
 
 // Loading fallback
 const PageLoader = () => (
@@ -73,6 +74,7 @@ function App() {
             <Route path="/confiserie" element={<Confiserie />} />
             <Route path="/papier-grenade" element={<PapierGrenade />} />
             <Route path="/colorants-additifs" element={<ColorantsAdditifs />} />
+            <Route path="/bio-grenagold-nutrition" element={<BioGrenaGoldNutrition />} />
           </Routes>
         </Suspense>
       </main>
