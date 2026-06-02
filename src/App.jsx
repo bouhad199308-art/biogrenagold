@@ -17,6 +17,7 @@ const Confiserie = lazy(() => import('./pages/Confiserie'))
 const PapierGrenade = lazy(() => import('./pages/PapierGrenade'))
 const ColorantsAdditifs = lazy(() => import('./pages/ColorantsAdditifs'))
 const BioGrenaGoldNutrition = lazy(() => import('./pages/BioGrenaGoldNutrition'))
+const VideoClip = lazy(() => import('./pages/VideoClip'))
 
 // Loading fallback
 const PageLoader = () => (
@@ -52,14 +53,15 @@ function HomePage() {
 function App() {
   const location = useLocation()
   const isHomePage = location.pathname === '/'
+  const isVideoPage = location.pathname === '/video'
 
   return (
     <>
       {/* Grain Overlay for texture */}
-      <div className="grain-overlay" aria-hidden="true"></div>
+      {!isVideoPage && <div className="grain-overlay" aria-hidden="true"></div>}
 
       {/* Navigation */}
-      <Navbar />
+      {!isVideoPage && <Navbar />}
 
       {/* Main Content */}
       <main>
@@ -75,12 +77,13 @@ function App() {
             <Route path="/papier-grenade" element={<PapierGrenade />} />
             <Route path="/colorants-additifs" element={<ColorantsAdditifs />} />
             <Route path="/bio-grenagold-nutrition" element={<BioGrenaGoldNutrition />} />
+            <Route path="/video" element={<VideoClip />} />
           </Routes>
         </Suspense>
       </main>
 
-      {/* Footer - show on all pages */}
-      <Footer />
+      {/* Footer - show on all pages except the video page */}
+      {!isVideoPage && <Footer />}
     </>
   )
 }
