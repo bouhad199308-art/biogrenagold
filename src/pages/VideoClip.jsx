@@ -11,7 +11,7 @@ function VideoClip() {
       }}
     >
       <video
-        src={`${import.meta.env.BASE_URL}clip to be displayed solo.mp4`}
+        src={`${import.meta.env.BASE_URL}clip-solo-compressed.mp4`}
         controls
         autoPlay
         playsInline
